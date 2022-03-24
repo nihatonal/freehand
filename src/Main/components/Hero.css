@@ -1,3 +1,12 @@
+.hero-container {
+  margin: 0 auto;
+  width: 1181px;
+  height: 416px;
+  display: flex;
+  align-items: center;
+  padding-right: 27px;
+}
+
 .hero-content {
   width: 477px;
   height: 375px;
@@ -5,6 +14,7 @@
   flex-direction: column;
   justify-content:space-between;
   align-items:flex-start;
+  margin-right: 101px;
 }
 
 h1 {

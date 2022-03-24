@@ -1,29 +1,19 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-import { PersonData } from "../assets/PersonData";
+import { SlideData } from "../../assests/SlideData";
+import arrow from "../../assests/images/arrow.svg";
 import "./Carousel.css";
 
 const Carousel = ({ slides }) => {
   const [current, setCurrent] = useState(0);
-  const [active, setActive] = useState(true);
-  const [active2, setActive2] = useState(false);
-  const [active3, setActive3] = useState(false);
+  const length = slides.length;
 
   const nextSlide = () => {
-    setCurrent(2);
-    setActive3(true);
-    setActive(false);
+    setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
   const prevSlide = () => {
-    setCurrent(1);
-    setActive2(true);
-    setActive(false);
-  };
-  const currentSlide = () => {
-    setCurrent(0);
-    setActive2(false);
-    setActive3(false);
+    setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -31,36 +21,31 @@ const Carousel = ({ slides }) => {
   }
 
   return (
-    <section className="person-info-carousel-wrapper">
+    <section className="carousel-wrapper">
+      <div className="arrow left" onClick={prevSlide}>
+        <img src={arrow} alt="arrow" />
+      </div>
+      <div className="arrow right">
+        <img src={arrow} alt="arrow" onClick={nextSlide} />
+      </div>
       {/* <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} /> */}
-      {PersonData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? "slide activeSlide" : "slide"}
-            key={index}
-          >
-            {index === current && (
-              <div></div>
-            )}
-          </div>
-        );
-      })}
+     
+        {SlideData.map((slide, index) => {
+          return (
+            <div
+              className={index === current ? "slide activeSlide" : "slide"}
+              key={index}
+            >
+              {index === current && (
+                <div className="slide-image-wrapper">
+                  <img src={slide.image} alt={slide.id} />
+                </div>
+              )}
+            </div>
+          );
+        })}
 
-      <div className="dots-wrapper-carousel">
-        <span
-          onClick={prevSlide}
-          className={!active2 ? "dot" : "dot activeDot"}
-        ></span>
-        <span
-          onClick={currentSlide}
-          className={!active  ? "dot" : "dot activeDot"}
-        ></span>
-        <span
-          onClick={nextSlide}
-          className={!active3 ? "dot" : "dot activeDot"}
-        ></span>
-      </div>
     </section>
   );
 };

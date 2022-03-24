@@ -1,29 +1,13 @@
-.person-info-carousel-wrapper {
-    width: 1197px;
-    display: none;
+.carousel-wrapper {
+    width: 576px;
+    height: 416px;
+    margin-top: 50px;
+    position: relative;
   }
-  
-  .dots-wrapper-carousel {
-    width: 35.08px;
-    height: 8px;
-    display: none;
-  }
-  .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-    border: 1px solid #2f281e;
-    cursor: pointer;
-  }
-  .activeDot {
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-    background: #2f281e;
-  }
-  
+ 
   .slide {
     opacity: 0;
+    position: absolute;
     transition-duration: 1s ease;
   }
   
@@ -31,7 +15,28 @@
     opacity: 1;
     transition-duration: 1s;
   }
-  
+  .arrow {
+    width: 55px;
+    height: 55px;
+    background: #16133D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 181px;
+    right: 548px;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .right {
+    left: 548px;
+    transform: rotate(180deg);
+  }
+  .slide-image-wrapper img{
+    width: 576px;
+    height: 416px;
+  }
   @media screen and (max-width: 400px) {
     .person-info-carousel-wrapper {
       width: 333px;

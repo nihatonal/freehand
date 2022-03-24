@@ -1,6 +1,8 @@
 import React from "react";
 
 import Button from "../../shared/components/Button";
+import { SlideData } from "../../assests/SlideData";
+import Carousel from "../../shared/components/Carousel";
 
 import "./Hero.css";
 
@@ -19,6 +21,7 @@ const Hero = () => {
 
         </div>
       </div>
+      <Carousel slides={SlideData} />
     </div>
   );
 };
