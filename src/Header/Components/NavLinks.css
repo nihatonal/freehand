@@ -1,0 +1,19 @@
+.nav-items {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #16133d;
+  text-decoration: none;
+  transition: all ease-in-out .4s;
+}
+.nav-item:hover {
+    text-decoration: underline;
+    color: #231f53;
+}

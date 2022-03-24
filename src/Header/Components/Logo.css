@@ -1,0 +1,19 @@
+.logo-wrapper {
+    width: 188px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-wrapper img {
+    width:26px;
+}
+.logo {
+    font-family: 'Quicksand',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #16133D;
+    }
+    
