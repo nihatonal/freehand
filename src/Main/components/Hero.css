@@ -1,0 +1,59 @@
+.hero-content {
+  width: 477px;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+
+h1 {
+  width: 477px;
+  height: 204px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin: 0;
+}
+.hero-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  color: #183b56;
+}
+.hero-btn-wrapper {
+    width: 378px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-projects {
+  width: 179px;
+  height: 48px;
+  background: #007ffc;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.btn-projects:hover {
+  background: #fff;
+  color: #007ffc;
+  border: 2px solid #007ffc;
+}
+.btn-learn {
+  width: 179px;
+  height: 48px;
+  color: #007ffc;
+  border: 2px solid #007ffc;
+  background:transparent;
+  border-radius: 8px;
+}
+.btn-learn:hover {
+  background: #007ffc;
+  color: #ffffff;
+}
