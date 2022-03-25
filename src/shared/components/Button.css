@@ -5,6 +5,7 @@ button {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  background: transparent;
 }
 .button {
   width: 119px;

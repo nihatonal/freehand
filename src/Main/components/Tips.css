@@ -1,0 +1,31 @@
+.tips-container {
+  width: 1158px;
+  height: 694px;
+  margin-top:200px;
+}
+.section-tips_content-wrapper {
+  width: 1158px;
+  height: 483px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 85px;
+}
+.section-tips_content {
+  width: 553px;
+  height: 483px;
+  background: url(../../assets//images/features2.jpg) no-repeat center;
+}
+.second {
+    background: url(../../assets//images/features.jpg) no-repeat center;
+}
+.section-tips_content-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 323px 0 0 48px;
+}

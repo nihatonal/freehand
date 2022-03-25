@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import { SlideData } from "../../assests/SlideData";
-import arrow from "../../assests/images/arrow.svg";
+import { SlideData } from "../../assets/SlideData";
+import arrow from "../../assets/images/arrow.svg";
 import "./Carousel.css";
 
 const Carousel = ({ slides }) => {

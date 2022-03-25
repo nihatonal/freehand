@@ -1,0 +1,93 @@
+.section-payment {
+  width: 1158px;
+  height: 607px;
+  margin-top:200px;
+}
+.section-payment_content-wrapper {
+  width: 1140px;
+  height: 436px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 84px;
+}
+.section-payment_content-item {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  width: 360px;
+  height: 436px;
+  background: #ffffff;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-payment_content-item-line {
+  width: 360px;
+  height: 3px;
+  background: #007ffc;
+}
+.section-payment_content-item-basic {
+  width: 360px;
+  height: 3px;
+  background: #52c29d;
+  
+}
+.section-payment_content-item-enterprise {
+  width: 360px;
+  height: 3px;
+  background: #f04d5d;
+}
+
+.section-payment_content-item-title {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-top:50px;
+}
+.section-payment_content-item-price {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #007ffc;
+  margin: 32px 0 5px 0;
+}
+.basic-price {
+  color: #52c29d;
+}
+.enterprise-price {
+  color: #f04d5d;
+}
+span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #5a7184;
+}
+.section-payment_content-item-text {
+  width: 287px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7690a8;
+  margin: 35px 0 54px 0;
+}
+
+.section-payment_content-item-btn {
+  font-size: 16px;
+  line-height: 44px;
+  color: #16133d;
+  width: 171px;
+  height: 48px;
+  border: 2px solid #16133d;
+  border-radius: 50px;
+  transition: all ease-in-out 0.2s;
+}
+.section-payment_content-item-btn:hover {
+  background: #16133d;
+  color: #fff;
+}

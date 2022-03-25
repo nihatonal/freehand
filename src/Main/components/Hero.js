@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "../../shared/components/Button";
-import { SlideData } from "../../assests/SlideData";
+import { SlideData } from "../../assets/SlideData";
 import Carousel from "../../shared/components/Carousel";
 
 import "./Hero.css";
