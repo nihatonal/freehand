@@ -1,0 +1,50 @@
+.section_advertisement {
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-advertisement_content-wrapper {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  width: 1150px;
+  height: 380px;
+  background: url(../../assets/images/try.jpg) no-repeat center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 97px;
+}
+.section-advertisement_content-wrapper .advertisement_title {
+  color: #ffffff;
+}
+.section-advertisement_content-wrapper-text {
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.section-advertisement_content-buttons {
+    width: 380px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:48px;
+}
+.section-advertisement_content-wrapper-btn {
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  width: 185px;
+  height: 48px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  transition: all ease-in 0.3s;
+}
+
+.section-advertisement_content-wrapper-btn:hover {
+  color: #183b56;
+  background: #ffffff;
+}
