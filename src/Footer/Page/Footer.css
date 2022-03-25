@@ -1,0 +1,22 @@
+footer {
+  width: 1440px;
+  height: 573px;
+  background: #16133d;
+  margin: 0 auto;
+  display: flex;
+  padding: 90px 0 0 160px;
+  position: relative;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #efeef3;
+  position: absolute;
+  bottom: 70px;
+  left: 592px;
+}

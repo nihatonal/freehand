@@ -1,0 +1,48 @@
+.footer_item-wrapper {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #efeef3;
+  height: 230px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+}
+.footer_item-wrapper {
+    margin-right: 50px;
+}
+.footer_item-wrapper:last-of-type {
+    margin-left: 100px;
+}
+
+.footer_item-title {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.footer_items {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_items p {
+  font-size: 15px;
+  line-height: 18px;
+}
+.company {
+  height: 132px;
+}
+.contact {
+  height: 66px;
+}
+.contact p {
+  width: 190px;
+}
+.contact .email {
+  font-size: 25px;
+  line-height: 29px;
+}
