@@ -41,20 +41,8 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.btn-projects {
-  width: 179px;
-  height: 48px;
-  background: #007ffc;
-  border: none;
-  border-radius: 8px;
-  color: #ffffff;
-}
-.btn-projects:hover {
-  background: #fff;
-  color: #007ffc;
-  border: 2px solid #007ffc;
-}
-.btn-learn {
+
+.btn-hero {
   width: 179px;
   height: 48px;
   color: #007ffc;
@@ -62,7 +50,7 @@ h1 {
   background:transparent;
   border-radius: 8px;
 }
-.btn-learn:hover {
+.btn-hero:hover {
   background: #007ffc;
   color: #ffffff;
 }

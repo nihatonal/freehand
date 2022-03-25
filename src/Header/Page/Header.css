@@ -11,23 +11,5 @@
     align-items: center;
     justify-content: space-between;
 }
-.btn-wrapper .login {
-  color: #fff;
-  border: none;
-  background: #16133d;
-}
-.btn-wrapper .login:hover {
-  color: #16133d;
-  background: #fff;
-  border: 2px solid #16133d;
-}
 
-.btn-wrapper .sign-in {
-    color: #16133d;
-    background: #fff;
-    border: 2px solid #16133d;
-  }
-  .btn-wrapper .sign-in:hover {
-    background: #16133d;
-    color: #fff;
-  }
+

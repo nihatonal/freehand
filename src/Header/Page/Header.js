@@ -12,8 +12,8 @@ const Header = (props) => {
       <Logo />
       <NavLinks />
       <div className="btn-wrapper">
-        <Button btnText="Sign in" className="sign-in" />
-        <Button btnText="Login" className="login" />
+        <Button btnText="Sign in" />
+        <Button btnText="Login" />
       </div>
     </div>
   );

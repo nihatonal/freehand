@@ -16,8 +16,8 @@ const Hero = () => {
           varus enif in eros.
         </p>
         <div className="hero-btn-wrapper">
-        <Button btnText="View Projects" className="btn-projects" />
-        <Button btnText="Learn more" className="btn-learn" />
+        <Button btnText="View Projects" className="btn-hero" />
+        <Button btnText="Learn more" className="btn-hero" />
 
         </div>
       </div>
